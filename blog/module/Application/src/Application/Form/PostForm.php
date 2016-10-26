@@ -22,10 +22,10 @@ class PostForm extends Form
         $this->setAttribute('method', 'post');
                 
         $this->addElements();
-        $this->addInputFilter();  
+        $this->addInputFilter();
         
     }
-    
+
     /**
      * This method adds elements to form (input fields and submit button).
      */
